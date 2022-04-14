@@ -20,3 +20,5 @@ android.frameworks.sensorservice::ISensorManager                              u:
 
 # Touch Feature
 vendor.xiaomi.hardware.touchfeature::ITouchFeature                                    u:object_r:hal_touchfeature_xiaomi_hwservice:s0
+
+vendor.xiaomi.hardware.campostproc::IMiPostProcService                                  u:object_r:hal_camerapostproc_xiaomi_hwservice:s0
