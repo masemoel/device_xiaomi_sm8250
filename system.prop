@@ -14,6 +14,9 @@ debug.sf.predict_hwc_composition_strategy=0
 persist.log.tag.OpenGLRenderer=S
 persist.vendor.color.matrix=2
 
+# Property for BLUR
+ro.surface_flinger.supports_background_blur=1
+
 # CNE
 persist.vendor.cne.feature=1
 
