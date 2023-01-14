@@ -55,6 +55,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         }
         ThermalUtils.startService(context);
         RefreshUtils.startService(context);
+        FileUtils.enableService(context);
 
         // Override HDR types
         final IBinder displayToken = SurfaceControl.getInternalDisplayToken();
