@@ -11,6 +11,7 @@ debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=0
 media.wfd.max_resolution=8
 debug.sf.predict_hwc_composition_strategy=0
+persist.log.tag.OpenGLRenderer=S
 persist.vendor.color.matrix=2
 
 # CNE
