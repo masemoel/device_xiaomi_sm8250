@@ -240,9 +240,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dolby/media/media_codecs_kona_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_kona_vendor.xml \
     $(LOCAL_PATH)/dolby/media/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml
 
-# Remove Packages for Dolby Support
+# Remove packages
 PRODUCT_PACKAGES += \
-    RemovePackagesDolby
+    RemovePackages
 
 else
 # MiSound (Dirac Only)
