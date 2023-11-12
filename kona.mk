@@ -321,7 +321,8 @@ PRODUCT_PACKAGES += \
 # GNSS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1.vendor \
-    android.hardware.gnss@2.1.vendor
+    android.hardware.gnss@2.1.vendor \
+    android.hardware.power@1.2.vendor
 
 # GPS Configs
 PRODUCT_COPY_FILES += \
