@@ -219,6 +219,12 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.audio.misound.bluetooth.enable=true
 endif
 
+# Dex preopt
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Launcher3QuickStep \
+    SettingsGoogle \
+    SystemUIGoogle
+
 # Display
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer-service
