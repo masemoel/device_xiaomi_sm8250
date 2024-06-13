@@ -160,6 +160,7 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libgui_vendor \
     libstdc++_vendor \
+    libutilscallstack.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
@@ -449,9 +450,12 @@ PRODUCT_COPY_FILES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor \
     libjson \
+    libjsoncpp.vendor \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor \
+    libsqlite.vendor \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
